@@ -33,7 +33,7 @@ class CashRegister
   
   def void_last_transaction
     # binding.pry
-    self.all_items.pop
+    self.total - self.last_transaction
   end
   
 end
