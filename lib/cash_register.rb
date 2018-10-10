@@ -31,7 +31,7 @@ class CashRegister
   end
   
   def void_last_transaction
-    # binding.pry
+    binding.pry
     self.all_items.pop
   end
   
